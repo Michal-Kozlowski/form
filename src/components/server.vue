@@ -7,6 +7,7 @@
 			</div>			
 			<div v-else>
 				<p>invalid email or password</p>	
+				<small>(test@test.pl/Password1)</small>
 			</div>			
 		</div>
 	</transition>
@@ -48,5 +49,9 @@ export default {
   	margin-bottom: 20px;  	
   	padding: 10px;
   	cursor: pointer;
+  }
+
+  small {
+  	opacity: 0.67;
   }
 </style>
