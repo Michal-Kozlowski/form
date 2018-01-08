@@ -43,7 +43,7 @@
 		    </div>
 		    <div>
 		    	<i class="fa fa-sign-in" aria-hidden="true"></i>
-		      	<input type="submit" value="login" :disabled="$v.$invalid" @click.prevent="[$v.email.$touch(), $v.password.$touch(), onSubmit()]">
+		      	<input type="submit" value="login" @click.prevent="[$v.email.$touch(), $v.password.$touch(), onSubmit()]">
 		    </div>
 	    </fieldset> 
 	</form>
