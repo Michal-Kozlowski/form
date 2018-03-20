@@ -2,6 +2,8 @@
 
 > form with validation
 
+GitHub pages link: https://michal-kozlowski.github.io/form/form.html
+
 ## Build Setup
 
 ``` bash
